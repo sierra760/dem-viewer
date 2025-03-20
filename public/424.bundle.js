@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdem_viewer=self.webpackChunkdem_viewer||[]).push([[424],{424:(e,r,s)=>{s.r(r),s.d(r,{default:()=>a});var d=s(75),u=s(132);class a extends u.A{decodeBlock(e){return(0,d.UD)(new Uint8Array(e)).buffer}}}}]);

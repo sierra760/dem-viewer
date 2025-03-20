@@ -1,0 +1,39 @@
+{
+  "name": "dem-viewer",
+  "version": "1.0.0",
+  "description": "A 3D DEM viewer application for visualizing GeoTIFF elevation data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development",
+    "build:dev": "webpack --mode development"
+  },
+  "keywords": [
+    "DEM",
+    "GeoTIFF",
+    "3D",
+    "visualization",
+    "elevation",
+    "maps",
+    "GIS"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "geotiff": "^2.0.7",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "nodemon": "^3.0.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
