@@ -39,15 +39,6 @@ npm start
 http://localhost:3000
 ```
 
-## Quick Setup
-
-For convenience, you can use the included build script to install, build and run in one step:
-
-```bash
-chmod +x build.sh
-./build.sh
-```
-
 ## Development
 
 For development with auto-rebuilding:
